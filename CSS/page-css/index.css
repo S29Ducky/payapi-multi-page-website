@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-san-juane-blue-opacity);
+}
+
+h1{
+    
+}
+
+.tel-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
