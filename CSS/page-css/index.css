@@ -1,0 +1,11 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--secondary-san-juane-blue-opacity);
+	padding: 40px 24px 8rem 24px;
+	border-radius: 0 0 50% 50%;
+}
+
+nav {
+	display: none;
+}
