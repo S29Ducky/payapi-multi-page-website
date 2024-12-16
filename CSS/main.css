@@ -1,11 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Sofadi+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Sofadi+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-	/* font */
-	font-family: "DM Serif Display", serif;
-	font-family: "Public Sans", sans-serif;
-
 	/* color */
 	--primary-dark-pink: #ba4270;
 	--primary-link-water-white: #fbfcfe;
@@ -32,5 +28,17 @@
 	/* p */
 	--p-height: 15px;
 	--p-large-line: 28px;
+
+	/* font */
+	font-family: "Public Sans", serif;
+	font-family: "DM Serif Display", serif;
 }
 
+/* .h1-large {
+	font-family: "DM Serif Display", serif;
+	font-size: var(--h3-big-size);
+	line-height: var(--h3-big-line-height);
+	font-weight: 400;
+	text-align: center;
+	color: var(--secondary-san-juane-blue);
+} */

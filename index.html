@@ -4,22 +4,36 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./CSS/main.css" />
 		<link rel="stylesheet" href="./CSS/normalize.css" />
 		<link rel="stylesheet" href="./CSS/reset.css" />
-		<link rel="stylesheet" href="./CSS/page-css/index.css" />
-		<link rel="stylesheet" href="CSS/button.css" />
+		<link rel="stylesheet" href="./CSS/main.css" />
+		<link rel="stylesheet" href="./CSS/components/button.css" />
+		<link rel="stylesheet" href="./CSS/page-css/home.css" />
 	</head>
 	<body>
 		<header>
 			<img class="logo-header" src="assets/payapi-logo.svg" alt="payapi-logo" />
-			<img class="burger" src="assets/menu-burger.svg" alt="menu" />
 			<nav>
-				<a href="">Pricing</a>
-				<a href="">About</a>
-				<a href="">Contact</a>
-				<button>Schedule a Demo</button>
+				<ul>
+					<li><a href="">Pricing</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			<button class="btn-primary-light">Schedule a Demo</button>
 			</nav>
+			<img class="burger" src="assets/menu-burger.svg" alt="menu" />
 		</header>
+		<main>
+			<div class="circle"></div>
+			<img class="image-iphone" src="assets/iPhone-X-Mockup.jpg" alt="image iPhone-X-Mockup">
+			<section class="hero">
+				<h1 class="h1-large">
+					Start building with our APIsfor absolutely free.
+				</h1>
+				<input class="input-e-mail" type="text" name="E-mail" id="" placeholder="Enter email address">
+				<button class="btn-primary-light">Schedule a Demo</button>
+				<p>Have any questions? <span><a href=""> Contact Us</a></span></p>
+			</section>
+		</main>
 	</body>
 </html>

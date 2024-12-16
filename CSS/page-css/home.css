@@ -1,0 +1,61 @@
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: var(--secondary-san-juane-blue-opacity);
+	padding: 40px 24px 8rem 24px;
+	border-radius: 0 0 50% 50%;
+}
+
+nav {
+	display: none;
+}
+
+ul{
+	display: none;
+}
+
+.image-ihpone{
+}
+
+
+@media screen and (min-width: 768px) {
+	nav {
+		display: flex;
+		align-items: center;
+		opacity: 70%;
+		justify-content: space-between;
+		width: 70%;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: row;
+		gap: 45px;
+		list-style: none;
+	}
+
+	a {
+		text-decoration: none;
+		color: var(--secondary-san-juane-blue);
+		font-size: 15px;
+		font-weight: 700;
+		font-family: "Public Sans", sans-serif;
+	}
+
+	
+
+	.burger {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	nav {
+		width: 85%;
+	}
+
+	header{
+		
+	}
+}
