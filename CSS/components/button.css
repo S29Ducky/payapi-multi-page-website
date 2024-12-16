@@ -6,7 +6,7 @@
 	--secondary-submit-padding: 16px 25px 14px 28px;
 }
 
-/* .btn-primary-light {
+.btn-primary-light {
 	color: var(--primary-link-water-white);
 	background-color: var(--primary-dark-pink);
 	border: none;
@@ -25,4 +25,4 @@
 		align-items: center;
 		padding: 12px 18px;
 	}
-} */
+}
