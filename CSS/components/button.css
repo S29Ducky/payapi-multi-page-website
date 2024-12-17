@@ -12,14 +12,16 @@
 	border: none;
 	border-radius: 9999px;
 	cursor: pointer;
+	width: 90%;
+	padding: 16px 24px 14px 26px;
 }
 
 .btn-primary-light:hover {
 	background-color: var(--charm-pink);
 }
 
-@media screen and (min-width: 768px){
-	.btn-primary-light{
+@media screen and (min-width: 768px) {
+	.btn-primary-light {
 		display: flex;
 		justify-content: center;
 		align-items: center;

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
 	/* color */
@@ -34,11 +34,26 @@
 	font-family: "DM Serif Display", serif;
 }
 
-/* .h1-large {
+.h1-large {
 	font-family: "DM Serif Display", serif;
 	font-size: var(--h3-big-size);
 	line-height: var(--h3-big-line-height);
 	font-weight: 400;
 	text-align: center;
 	color: var(--secondary-san-juane-blue);
-} */
+	margin: 0 0 24px;
+}
+
+.p-contact-us {
+	color: var(--secondary-light-san-juan-blue);
+	font-size: var(--p-height);
+	font-weight: 400;
+	font-family: "Public Sans", serif;
+	margin-top: 24px;
+}
+
+.contact-us-span {
+	color: var(--secondary-light-san-juan-blue);
+	text-decoration: none;
+	font-weight: 700;
+}
