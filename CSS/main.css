@@ -34,14 +34,29 @@
 	font-family: "DM Serif Display", serif;
 }
 
-.h1-large {
+.h1-large,
+.h1-small,
+.h2,
+.h3-big,
+.h4 {
 	font-family: "DM Serif Display", serif;
-	font-size: var(--h3-big-size);
-	line-height: var(--h3-big-line-height);
 	font-weight: 400;
-	text-align: center;
+}
+
+.h1-large {
+	font-size: 32px;
+	line-height: 36px;
+
 	color: var(--secondary-san-juane-blue);
 	margin: 0 0 24px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-bold {
+	font-weight: bold;
 }
 
 .p-contact-us {
@@ -56,4 +71,10 @@
 	color: var(--secondary-light-san-juan-blue);
 	text-decoration: none;
 	font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+	.h1-large {
+		width: 74.609%;
+	}
 }

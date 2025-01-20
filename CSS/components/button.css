@@ -17,7 +17,7 @@
 }
 
 .btn-primary-light:hover {
-	background-color: var(--charm-pink);
+	background-color: var(--secondary-charm-pink);
 }
 
 @media screen and (min-width: 768px) {
@@ -27,4 +27,8 @@
 		align-items: center;
 		padding: 12px 18px;
 	}
+}
+
+@media screen and (min-){
+	
 }
